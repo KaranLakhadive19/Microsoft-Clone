@@ -1,0 +1,598 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header .nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header {
+    height: 54px;
+    background: white;
+}
+
+span {
+    margin-top: 14px;
+    margin-left: 87px;
+}
+
+.img img {
+    margin-top: 14px;
+}
+
+span.l2 {
+    position: relative;
+    right: 66px;
+    bottom: 5px;
+}
+
+span.l3 {
+    position: relative;
+    right: 129px;
+    bottom: 5px;
+}
+
+span.l4 {
+    position: relative;
+    right: 185px;
+
+    bottom: 5px;
+}
+
+span.l5 {
+    position: relative;
+    right: 241px;
+
+    bottom: 5px;
+}
+
+span.l6 {
+    position: relative;
+    right: 294px;
+
+    bottom: 5px;
+}
+
+span.l7 {
+    position: relative;
+    right: 342px;
+    bottom: 5px;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-contents2 {
+    position: relative;
+    top: 5px;
+}
+
+span.l9 {
+    position: relative;
+    right: 52px;
+}
+
+span.l10 {
+    position: relative;
+    right: 105px;
+}
+
+a {
+    color: black;
+    font-size: medium;
+    font-family: sans-serif;
+    text-decoration: none;
+    /* font-size: 1rem; */
+    font-size: smaller;
+    /* font-size: small; */
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+a:hover {
+    color: green;
+    font-size: medium;
+    font-family: sans-serif;
+    text-decoration: none;
+    /* font-size: 1rem; */
+    font-size: smaller;
+    /* font-size: small; */
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+
+.container {
+    height: 474.75px;
+    /* background: red; */
+    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-M365-Screenplates-Update-Excel:VP5-1920x600');
+    background-size: contain;
+}
+
+.first-content .content {
+    width: 359.75px;
+    height: 72px;
+
+}
+
+.first-content {
+    display: inline-block;
+    top: 155px;
+    position: relative;
+    left: 120px;
+}
+
+.first-content h1 {
+    line-height: 1.2;
+    font-family: sans-serif;
+}
+
+.first-content .content {
+    font-family: 'Segoe UI';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.btn input {
+    background-color: #0067b8;
+    color: white;
+    width: 161.4px;
+    height: 39.2px;
+    border: 2px solid aliceblue;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+}
+
+
+.one-p {
+    color: #0067b8;
+    font-family: 'Segoe UI';
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+    right: 137px;
+
+}
+
+.content {
+    position: relative;
+    top: 16px;
+}
+
+.btn {
+    position: relative;
+    top: 38px;
+    right: 89px;
+}
+
+.mid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 104px;
+    background: white;
+    margin: auto;
+}
+
+.s1 {
+    position: relative;
+    right: 138px;
+    top: 8px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0067b8;
+    font-family: 'Segoe UI';
+}
+
+.s2 {
+    position: relative;
+    right: 126px;
+    top: 8px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0067b8;
+    font-family: 'Segoe UI';
+}
+
+.s3 {
+    position: relative;
+    right: 128px;
+    top: 8px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0067b8;
+    font-family: 'Segoe UI';
+}
+
+.container-2 {
+    position: relative;
+    top: 80px;
+    height: 475.1px;
+    background: green;
+
+}
+
+.small-container {
+    margin: auto;
+    margin-top: auto;
+    display: grid;
+
+    grid-row-gap: 9px;
+    grid-column-gap: 9px;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 10px;
+
+}
+
+.small-container .item1 {
+    margin: auto;
+    margin-left: 70px;
+    width: 323.81px;
+    height: 181.5px;
+    background: yellow;
+
+}
+
+.small-container .item2 {
+    margin: auto;
+
+    width: 323.81px;
+    height: 181.5px;
+    background: yellow;
+
+}
+
+.small-container .item3 {
+    margin: auto;
+
+    width: 323.81px;
+    height: 181.5px;
+    background: yellow;
+
+}
+
+.small-container .item4 {
+    margin: auto;
+
+    width: 323.81px;
+    height: 181.5px;
+    background: yellow;
+
+    margin-right: 56px;
+}
+
+.item1 h2 {
+    font-size: 1.8125rem;
+    font-family: sans-serif;
+    position: relative;
+    top: 12px;
+}
+
+.item2 h2 {
+    font-size: 1.8125rem;
+    font-family: sans-serif;
+    position: relative;
+    top: 12px;
+}
+
+.item3 h2 {
+    font-size: 1.8125rem;
+    font-family: sans-serif;
+    position: relative;
+    top: 12px;
+}
+
+.item4 h2 {
+    font-size: 1.8125rem;
+    font-family: sans-serif;
+    position: relative;
+    top: 12px;
+}
+
+.c {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 23px;
+    cursor: pointer;
+}
+
+.c1 {
+    position: relative;
+    top: 46px;
+    color: #0067b8;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.one-p b {
+    font-weight: 600;
+}
+
+.small-con {
+    height: 550px;
+}
+
+.sm {
+    height: 514.017px;
+    width: 1519.2px;
+    cursor: pointer;
+}
+
+.sm img {
+    position: relative;
+    left: 82px;
+
+}
+
+.sm .sm-container {
+    width: 455.75px;
+    height: 271.6px;
+    background: white;
+    position: relative;
+    bottom: 400px;
+    left: 150px;
+}
+
+.sm-container h2 {
+    position: relative;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    top: 55px;
+    left: 50px;
+}
+
+.sm-container p {
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    position: relative;
+    top: 77px;
+    left: 50px;
+}
+
+.sm-container input {
+    background-color: #0067b8;
+    color: white;
+    width: 161.4px;
+    height: 39.2px;
+    border: 2px solid aliceblue;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    position: relative;
+    top: 103px;
+    left: 50px;
+}
+
+
+.sm-container2 {
+    height: 573px;
+
+    position: relative;
+    bottom: 275px;
+    display: grid;
+    grid-row-gap: 9px;
+    grid-column-gap: 9px;
+    grid-template-columns: auto auto auto auto;
+    margin-top: -1px;
+}
+
+.gitem1 {
+    margin: auto;
+    margin-left: -48px;
+    width: 323.81px;
+    height: 181.5px;
+
+
+
+    display: inline-block;
+    position: relative;
+    top: 129px;
+}
+
+.gitem2 {
+    margin: auto;
+    margin-left: 41px;
+    width: 323.81px;
+    height: 181.5px;
+
+    display: inline-block;
+    position: relative;
+    top: 150px;
+}
+
+.gitem3 {
+    margin: auto;
+    margin-left: 41px;
+    width: 323.81px;
+    height: 181.5px;
+
+    display: inline-block;
+    position: relative;
+    top: 150px;
+}
+
+.gitem4 {
+    margin: auto;
+    margin-left: 41px;
+    width: 323.81px;
+    height: 181.5px;
+
+    display: inline-block;
+    position: relative;
+    top: 150px;
+}
+
+
+.sm-c h1 {
+    position: relative;
+    font-style: sans-serif;
+    top: 112px;
+    left: 40px;
+    font-family: sans-serif;
+}
+
+.gitem1 .gitem2 .gitem3 .gitem3 .c2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 23px;
+}
+
+.gitem1 .gitem2 .gitem3 .gitem3 .c3 {
+    position: relative;
+    top: 46px;
+    color: #0067b8;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    left: 84px;
+}
+
+.gitem1 h2 {
+    position: relative;
+    left: 82px;
+    top: 20px;
+}
+
+.gitem2 h2 {
+    position: relative;
+    left: 82px;
+    top: 20px;
+}
+
+.gitem3 h2 {
+    position: relative;
+    left: 82px;
+    top: 20px;
+}
+
+.gitem4 h2 {
+    position: relative;
+    left: 82px;
+    top: 20px;
+}
+
+.gitem1 .c2 {
+    position: relative;
+    top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    left: 80px;
+}
+
+.gitem2 .c2 {
+    position: relative;
+    top: 36px;
+    margin-left: 77px;
+    left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gitem3 .c2 {
+    position: relative;
+    top: 36px;
+    margin-left: 77px;
+    left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gitem4 .c2 {
+    position: relative;
+    top: 36px;
+    margin-left: 77px;
+    left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gitem1 .c3 {
+    position: relative;
+    top: 56px;
+    left: 81px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0067b8;
+    cursor: pointer;
+}
+
+.gitem2 .c3 {
+    position: relative;
+    top: 56px;
+    left: 81px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0067b8;
+    cursor: pointer;
+}
+
+.gitem3 .c3 {
+    position: relative;
+    top: 56px;
+    left: 82px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0067b8;
+    cursor: pointer;
+}
+
+.gitem4 .c3 {
+    position: relative;
+    top: 56px;
+    left: 85px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0067b8;
+    cursor: pointer;
+}
+
+.foot {
+    display: flex;
+    height: 500px;
+    background: #f2f2f2;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot .div {
+
+    width: 310px;
+    height: 380px;
+    position: relative;
+    left: 33px;
+
+}
+
+.foot .div li {
+    list-style: none;
+    font-family: 'Segoe UI';
+    color: rgba(0, 0, 0, .9);
+    font-size: small;
+    cursor: pointer;
+}
+.foot .div li:hover {
+    list-style: none;
+    font-family: 'Segoe UI';
+    color: rgba(0, 0, 0, .9);
+    font-size: small;
+    cursor: pointer;
+    
+}
+
+.foot .div ul {
+    padding: 18px;
+}
+
+.foot .div h4 {
+    position: relative;
+    left: 16px;
+    font-size: large;
+    color: #616161;
+    font-family: 'Segoe UI';
+}
