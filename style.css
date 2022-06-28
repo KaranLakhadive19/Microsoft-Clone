@@ -463,25 +463,25 @@ a:hover {
 .gitem1 h2 {
     position: relative;
     left: 82px;
-    top: 38px;
+    top: 38px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .gitem2 h2 {
     position: relative;
     left: 82px;
-    top: -28px;
+    top: -28px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .gitem3 h2 {
     position: relative;
     left: 82px;
-    top: 20px;
+    top: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .gitem4 h2 {
     position: relative;
     left: 82px;
-    top: 20px;
+    top: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .gitem1 .c2 {
