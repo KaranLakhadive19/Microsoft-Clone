@@ -379,7 +379,7 @@ a:hover {
 
 .sm-container2 {
     height: 573px;
-    background: white;
+
     position: relative;
     bottom: 275px;
     display: grid;
@@ -410,7 +410,7 @@ a:hover {
 
     display: inline-block;
     position: relative;
-    top: 80px;
+    top: 150px;
 }
 
 .gitem3 {
@@ -421,7 +421,7 @@ a:hover {
 
     display: inline-block;
     position: relative;
-    top: 130px;
+    top: 150px;
 }
 
 .gitem4 {
@@ -432,7 +432,7 @@ a:hover {
 
     display: inline-block;
     position: relative;
-    top: 121px;
+    top: 150px;
 }
 
 
@@ -463,30 +463,30 @@ a:hover {
 .gitem1 h2 {
     position: relative;
     left: 82px;
-    top: 20px;
+    top: 38px;
 }
 
 .gitem2 h2 {
     position: relative;
     left: 82px;
-    top: -48px;
+    top: -28px;
 }
 
 .gitem3 h2 {
     position: relative;
     left: 82px;
-    top: -3px;
+    top: 20px;
 }
 
 .gitem4 h2 {
     position: relative;
     left: 82px;
-    top: -2px;
+    top: 20px;
 }
 
 .gitem1 .c2 {
     position: relative;
-    top: 40px;
+    top: 57px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     left: 80px;
@@ -494,7 +494,7 @@ a:hover {
 
 .gitem2 .c2 {
     position: relative;
-    top: -3px;
+    top: 14px;
     margin-left: 77px;
     left: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -502,7 +502,7 @@ a:hover {
 
 .gitem3 .c2 {
     position: relative;
-    top: 15px;
+    top: 36px;
     margin-left: 77px;
     left: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -510,7 +510,7 @@ a:hover {
 
 .gitem4 .c2 {
     position: relative;
-    top: 16px;
+    top: 36px;
     margin-left: 77px;
     left: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -518,7 +518,7 @@ a:hover {
 
 .gitem1 .c3 {
     position: relative;
-    top: 56px;
+    top: 79px;
     left: 81px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #0067b8;
@@ -554,7 +554,7 @@ a:hover {
 
 .foot {
     display: flex;
-    height: 1700px;
+    height: 500px;
     background: #f2f2f2;
     justify-content: space-evenly;
     align-items: center;
@@ -599,13 +599,10 @@ a:hover {
 
 .gitem2 img{
     position: relative;
-    bottom: 70px;
+bottom: 50px;
 }
-.gitem3 img{
+
+.gitem1 img{
     position: relative;
-    bottom: 20px;
-}
-.gitem4 img{
-    position: relative;
-    bottom: 18px;
+    top: 20px;
 }
